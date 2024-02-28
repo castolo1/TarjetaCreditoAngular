@@ -103,6 +103,23 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "version": 2
+          },
+          "configurations": {
+            "production": {
+              "buildTarget": "tarjetacreditoangular2:build:production",
+              "serveTarget": "tarjetacreditoangular2:serve:production"
+            },
+            "development": {
+              "buildTarget": "tarjetacreditoangular2:build:development",
+              "serveTarget": "tarjetacreditoangular2:serve:development"
+            }
+          },
+          "defaultConfiguration": "production"
         }
       }
     }

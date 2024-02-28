@@ -1,0 +1,11 @@
+{
+  "hosting": [
+    {
+      "target": "tarjetacreditoangular2",
+      "source": ".",
+      "frameworksBackend": {
+        "region": "us-west1"
+      }
+    }
+  ]
+}

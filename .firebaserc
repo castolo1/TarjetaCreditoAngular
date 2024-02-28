@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "tarjetacredito-f8008": {
+      "hosting": {
+        "tarjetacreditoangular2": [
+          "tarjetacredito-f8008"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "tarjetacredito-f8008"
+  }
+}
